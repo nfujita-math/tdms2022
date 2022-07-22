@@ -1,112 +1,81 @@
-<!doctype html> <!-- 読み込むときの宣言 -->
+@charset "UTF-8";
 
-<html lang="ja" lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta charset="UTF-8"> <!-- このhtmlファイルの文字コード -->
-<title>Toric Degenerations and Mirror Symmetry 2022</title> <!-- タブに出てくるタイトル -->
-<link href="style.css" rel="stylesheet" type="text/css"> 
-<meta name="google-site-verification" content="__P7w7LTiavT7tkmxcnHMQ9eKHqD15QgqrjgUCcCMW0" />
-</head>
+body{
+	background-color: azure; /* ========枠外の背景の色======== */
+      font-size: 22px; /* ========本文の大きさ======== */
+}
 
-<body>
-<div id="wrap"> <!-- 枠の中の記述-->
+#wrap{
+	width: 980px; /* ========枠の幅======== */
+	margin: 40px auto;  /* ========ブラウザの画面上と枠との距離（右）　autoは左右中央に配置======== */
+	padding: 20px 40px;  /* ========枠と文字の一行目との距離（左） 枠から文字までの左右の距離（右）======== */
+	background-color: #ffffff; /* ========枠の中の背景の色======== */
+        border-style: solid;
+        border-width: 1px;
+        border-color: darkgreen;
+}
+/* ========数値の入力する順番…　何かの上の距離の設定 左右の距離の設定 下の距離の設定======== */
 
-<div align="right">
+li
+{
+	margin: 20px 0px 20px 0px;
+	padding: 0 0 0 10px;
+	line-height: 20px;
+	border-left: 2px mediumseagreen solid;
+}
 
-  <a href="index.html">English</a>
-  <a href="index_japanese.html">Japanese</a><br>
-  Last updated: July 22, 2022
+a.tag:visited 
+{
+        color: white;
+}
 
-<div align="center">
+a.tag
+{
+	color: white;
+}
 
-<h1>Toric Degenerations<br> and Mirror Symmetry in Kumamoto</h1>
+a.tag:hover
+{
+        background-color: darkgreen;
+	color: white;
+}
 
-</div>
+h1
+{
+        color: darkgreen;
+        text-align: center
+}
 
-<div align="left">
+h2
+{
+        color: mediumseagreen;
+}
 
-<h2>Date:</h2>
+table.style1 {
+	border-collapse: separate;
+        text-align: center
+}
 
-<ul style="list-style:none"> <li> October 13 and 14, 2022</li></ul>
+td.style2 {
+	background-color: darkgreen;
+	text-align: center;
+	color: white;
+	font-size: large;
+        border-style: solid;
+        border-width: medium;
+        border-color: darkgreen;
+}
 
-<h2>Venue:</h2>
+td.style3 {
+	background-color: darkgreen;
+	text-align: center;
+	color: white;
+	font-size: large;
+        border-style: solid;
+        border-width: medium;
+        border-color: darkgreen;
+}
 
-<ul style="list-style:none"> <li> 
-Kumamoto, Japan (details will be announced)
-</li></ul>
-<ul style="list-style:none"> <li>  
-held in a hybrid mode 
-</li></ul>
-
-<h2>Program:</h2>
-
-TBA
-
-<h2>Invited Speakers:</h2>
-
-<ul style="list-style:none"> <li>  
-Yunhyung Cho (Sungkyunkwan University) 
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Oliver Clarke (University of Bristol)
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Xin Fang (University of Cologne) (online)
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Matej Filip (University of Ljubljana) 
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Thomas Hall (University of Nottingham) 
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Eunjeong Lee (Chungbuk National University) (online) 
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Andrea Petracci (University of Bologna) 
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Bea Schumann (University of Cologne) 
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Francesca Zaffalon (Ghent University) 
-</li></ul>
-
-
-
-<h2>Organizers:</h2>
-
-<ul style="list-style:none"> <li>  
-Naoki Fujita<sup>&lowast;</sup> (Kumamoto University) [fnaoki ``at'' kumamoto-u.ac.jp]
-</li></ul>
-
-<ul style="list-style:none"> <li>
-Akihiro Higashitani (Osaka University)
-</li></ul>
-
-<sup>&lowast;</sup>contact person<br><br>
-
-Funding for the workshop is provided by MEXT Japan Leading Initiative for Excellent Young Researchers (LEADER) Project. 
-
-
-
-
-
-
-
-
-
-
-
-</div> <!-- wrap -->
-
-</body>
-</html>
+span.style5 {
+	color: white;
+}
